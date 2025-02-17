@@ -1,52 +1,35 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    height: 100vh;
     background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.matrix-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('https://i.imgur.com/JyN0Aav.png') repeat;
-    z-index: -1;
+    color: #0f0;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .login-container {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 
 input {
-    margin: 10px 0;
     padding: 10px;
-    width: 100%;
-    max-width: 300px;
+    font-size: 1.2em;
+    margin: 10px 0;
     border: none;
-    border-radius: 5px;
     background: #333;
-    color: white;
+    color: #0f0;
+    width: 80%;
 }
 
 button {
     padding: 10px 20px;
-    background: #5c5c5c;
-    color: white;
+    font-size: 1.2em;
+    background: #0f0;
+    color: black;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #777;
 }
